@@ -1,0 +1,46 @@
+
+
+
+
+h2{
+	text-align: center;	/*centre le texte*/
+}
+
+h5, span{
+	color: #ff0000; 	/*mise en rouge de h3 et *   */
+}
+
+form{
+	font-weight: bold;	/*mise en gras*/
+	font-family: Times New Roman;
+}
+
+#fieldset1{		/*le # renvoie à un id*/
+	background-color: #cad1ee;
+}
+
+#fieldset2{
+	background-color: #ccece3;
+}
+
+#fieldset3{
+	background-color: #dadede;
+}
+
+label{ 	
+	display: inline-block;  /*alignement des blocs de saisie*/
+	min-width: 180px;
+}
+
+#adresse{
+	vertical-align: 80%;	/*alignement vertical du texte*/
+}
+
+#radio1{
+	margin-right: 20%;	/*espace après le 1er bouton radio*/ 
+}
+
+#envoyer{	
+	margin-left: 11%;	/*décalage G du bouton envoyer*/
+}
+
