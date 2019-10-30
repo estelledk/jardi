@@ -1,0 +1,62 @@
+/*
+balise {}
+.classe {}
+#id {}
+*/
+
+
+body {
+	background-color : whitesmoke;
+}
+
+h1{
+    padding-bottom : 30px;
+}
+
+/* 
+.text-center{
+    width : 400px;
+    margin : 0 auto;
+} */
+
+/* effet post-it */
+.post-itcss {
+    margin : 60px auto 150px auto;
+    min-width : 30%;
+    padding : 30px;
+    box-shadow : 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);  /* cadre et ombrage */
+    background-color : rgb(250, 243, 231);
+}
+
+.h2Post-itcss {
+    margin : 90px auto 60px auto;
+}
+
+.h4Post-itcss {
+    margin : 150px auto 400px auto;
+	padding : 150px auto 300px auto;
+}
+
+
+/* alignement des cadres */
+input[type=text], input[type=password], input[type=email] {
+    width : 100%;
+    padding : 12px 20px;
+}
+
+
+input[type=submit]{
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #128091;
+    border: 1px solid #53af57;
+}
+
+

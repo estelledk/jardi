@@ -2,7 +2,7 @@
 //source : https://m-gut.developpez.com/tutoriels/php/mail-confirmation/
 
 //connexion à la bdd
-include("../connexionBase.php");
+include("connexionBase.php");
 
 //récupération des variables nécessaires à l'activation
 $login = $_GET['log'];

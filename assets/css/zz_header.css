@@ -1,10 +1,16 @@
-/* button {
-    class : btn btn-success;
-    color: #ff0000; 
-}  */
+/*
+balise {}
+
+.classe {}
+
+#id {}
+
+*/
+
 
 
 .bandeau-image {
 	width : 100%;  /* occupe 100% du bandeau */
 	height : 200px;  /* height 200px, les % ne passent pas */
 }
+

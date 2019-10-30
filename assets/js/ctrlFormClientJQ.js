@@ -49,21 +49,23 @@ $(document).ready(function()   //dès que le document est chargé :
 			erreur.text("Saisie manquante"); //on affiche le message d'erreur
 			erreur.css(
 			{   
-				color : "red"  //on rend le champ rouge
+				color : "red" 
 			});
-	    } else if (regex.test(champ.val()) == false)  //valid est relatif à la regex
+		} 
+		else if (regex.test(champ.val()) == false)  //si regex n'est pas passée
 		{
 			erreur.text("Saisie erronée");  //on affiche le message d'erreur
 			erreur.css(
 			{  
-				color : "orange"  //on rend le champ rouge
+				color : "orange"
 			});
-		} else 
+		} 
+		else //si regex est passée
 		{
 			erreur.html("&#10003");  //on affiche le check(&#10003) de validation
 			erreur.css(
 			{   
-				color : "green"  //on rend le champ vert
+				color : "green"
 			});
 		}
 	}

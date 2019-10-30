@@ -1,5 +1,5 @@
 <?php
-include ('connexionBase.php'); //connexion à la BDD
+include('connexionBase.php'); //connexion à la BDD
 
 //DECLARATIONS
 //déclaration du tableau d'erreurs
@@ -9,7 +9,7 @@ $formError = array();
 $regexNom = "/^[A-Za-z\s\-àâéèêîïôöùç]+$/";   //lettres + blancs(\s) + accents
 $regexPrenom = "/^[A-Za-z\s\-àâéèêîïôöùç]+$/";      //lettres + blancs(\s) + tiret(\-) + accents
 $regexNaissance = "/^[0-9]{2,2}\/[0-9]{2,2}\/[0-9]{4,4}$/";
-$regexAdresse = "/^[0-9A-Za-z\s\-\/àâéèêîïôöùç]+$/"; //chiffres + lettres + blancs + accents
+$regexAdresse = "/^[0-9A-Za-z\s\-\'\/àâéèêîïôöùç]{2,}$/"; //chiffres + lettres + blancs + accents
 $regexVille = "/^[A-Za-z\s\-\/àâéèêîïôöùç]+$/"; //lettres + /(\/)  + tiret(\-) + blancs(\s)
 $regexPostal = "/^[0-9]{5}$/";        //chiffres, au nombre de 5
 $regexMail = "/^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/";     //[nom]@[domaine au moins 2 caractères].[extension entre 2 et 6 caractères]

@@ -1,13 +1,12 @@
 <?php 
-include ('header1headSession.php'); ?>
-	<title>produits</title>
-	<?php
-include ('header2bodyImg.php');
-include ('header3Navbar.php');
+include('header1headSession.php'); 
+?><title>produits</title><?php
+// include ('header2bodyImg.php');
+include('header3Navbar.php');
 
-include ('../controler/connexionBase.php');  //lance la fonction connexionBase qui est dans le fichier connexion_bdd
+include('../controler/connexionBase.php');  //lance la fonction connexionBase qui est dans le fichier connexion_bdd
 $db = connexionJardi();  // appel de la fonction de connexion
-include ('../model/modProductDetails2.php'); //requêtes du formulaire, include noté après include de la connexion bdd
+include('../model/modProductDetails2.php'); //requêtes du formulaire, include noté après include de la connexion bdd
 ?>
 
 
